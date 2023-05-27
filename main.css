@@ -1,0 +1,109 @@
+header {
+    padding: 5px;
+}
+
+body{
+    background-color: white;
+    padding: 5px;
+}
+
+footer{
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+#IdVanParagraafMetInleidendeTekst{
+    text-align: center;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    height: 20px;
+    width: 120px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    background-color: lightblue;
+}
+li:hover{
+    background-color: blue;
+    border-style: none;
+}
+h1{
+    margin-left: 200px;
+}
+
+#IdVanFooter{
+    background-color: lightblue;
+    text-align: center;
+}
+
+#IdVanFooter:hover{
+    background-color: blue;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabelHeader{
+    background-color: lightblue;
+}
+
+.tabelHeader:hover{
+    background-color: blue;
+}
+
+.tabelCell{
+    background-color: lightblue;
+}
+
+.tabelCell:hover{
+    background-color: blue;
+}
+
+#tabelVanHomepage {
+    margin: auto;
+}
+
+.IdVanContactformulier {
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+}
+
+input[type="text"], input[type="email"], textarea, select, button{
+    display: inline-block;
+    margin: 15px 0px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+textarea{
+    height: 100px;
+    width: 90%;
+    padding: 5px 4px;
+}
+
+button{
+    display: inline-block;
+    width: 90%;
+    background-color: lightblue;
+}
+
+button:active{
+    background-color: blue;
+    color: lightblue;
+    border-radius: 4px;
+}
+
+
+
